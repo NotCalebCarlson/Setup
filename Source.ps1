@@ -23,7 +23,7 @@ Add-Type -AssemblyName PresentationFramework, PresentationCore, WindowsBase, Sys
 [xml]$xaml = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="New PC Setup &amp; Diagnostics" Height="740" Width="850"
+        Title="Automatic Update Tool" Height="740" Width="850"
         WindowStartupLocation="CenterScreen" Background="#F3F3F3" FontFamily="Segoe UI">
     <Window.Resources>
         <Style TargetType="Button">
@@ -53,7 +53,7 @@ Add-Type -AssemblyName PresentationFramework, PresentationCore, WindowsBase, Sys
 
         <!-- Header -->
         <StackPanel Grid.Row="0" Margin="0,0,0,14">
-            <TextBlock Text="New PC Setup &amp; Diagnostics" FontSize="22" FontWeight="SemiBold" Foreground="#1A1A1A"/>
+            <TextBlock Text="Automatic Update Tool" FontSize="22" FontWeight="SemiBold" Foreground="#1A1A1A"/>
             <TextBlock Text="Inspect hardware, check Windows &amp; driver status, and run post-install tasks." Foreground="#555555" Margin="0,2,0,0"/>
         </StackPanel>
 
